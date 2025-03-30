@@ -18,14 +18,23 @@ Resume Analyzer is a Streamlit web app that uses advanced NLP models and vector 
 ## Project Structure
 
 ├── app.py                  # Entry point
+
 ├── frontend/
+
 │   ├── main_app.py         # Resume upload & analysis logic
+
 │   └── chat_interface.py   # Chat-based interaction
+
 ├── backend/
+
 │   ├── analysis.py         # Resume analysis logic with Groq
+
 │   ├── pdf_ingestion.py    # PDF reader & text splitter
+
 │   └── vector_store.py     # Embedding + FAISS vector store
+
 ├── requirements.txt
+
 └── README.md
 
 ## Tech Stack
